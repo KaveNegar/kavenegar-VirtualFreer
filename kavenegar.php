@@ -1,4 +1,4 @@
-<?
+<?php
 	/*
 	  Virtual Freer
 	  http://freer.ir/virtual
@@ -56,4 +56,3 @@
  		}
 		file_get_contents("https://api.kavenegar.com/v1/".$data[apikey]."/sms/send.json?sender=" . $data[sender] . "&receptor=" .$receptor. "&message=" . urlencode($message)."&from=freer");
 	}
-?>

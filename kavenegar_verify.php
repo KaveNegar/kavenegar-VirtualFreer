@@ -50,4 +50,3 @@
 			$receptor = implode(",",$receptor);
 		file_get_contents("https://api.kavenegar.com/v1/".$data[apikey]."/verify/lookup.json?receptor=".$receptor."&template=".$data[template]."&token=".$token."&token2=".$token2."&token3=".$token3);
     }
-?>
